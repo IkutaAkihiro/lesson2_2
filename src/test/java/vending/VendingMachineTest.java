@@ -12,6 +12,7 @@ class VendingMachineTest {
         Drink d = vm.buy("水");
         assertEquals("水", d.name());
         assertEquals(0, vm.change());   // 仕様書No.1：お釣りは 0円
+        
     }
 
     // 【ケース2】お釣りが正しく出る（正常系）／仕様書No.2
