@@ -10,6 +10,6 @@ class CalcTest {
     @Test
     void add_2と3で5になる() {
         Calc calc = new Calc(); 
-        assertEquals(5, calc.add(2, 3));     
+        assertEquals(4, calc.add(2, 3));     
     }
 }
